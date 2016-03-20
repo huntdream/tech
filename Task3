@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Task3</title>
+    <style type="text/css">
+        #container {
+            width: auto;
+            height: 500px;
+            background-color: #eee;
+        }
+        
+        #team-logo {
+            float: left;
+            width: 200px;
+            height: 120px;
+            box-sizing: border-box;
+            padding-top: 0;
+            padding-right: 0;
+        }
+        
+        #team-intro {
+            float: none;
+            width: auto;
+            height: 100px;
+            border-color: #999;
+            margin-left: 240px;
+            margin-right: 160px;
+            box-sizing: border-box;
+            height: auto;
+        }
+        
+        #member-logo {
+            width: 120px;
+            float: right;
+            height: 420px;
+            box-sizing: border-box;
+            padding-top: 0;
+        }
+        
+        div {
+            border-color: #999;
+            border: 1px solid;
+            padding: 20px;
+        }
+        
+        img {
+            width: 80px;
+            height: 80px;
+            box-sizing: border-box;
+            margin-top: 20px;
+            border-color: #999;
+            border: 1px solid;
+        }
+        
+        #intro {
+            float: right;
+            font-style: italic;
+            font-size: 17px;
+            padding-right: 8px;
+        }
+        
+        p {
+            word-break: break-all;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="team-logo">
+            <img src="C:\Users\Tech-\Desktop\∞\logo-m.png" alt="team-logo">
+            <p id="intro">BalckTech</p>
+        </div>
+        <div id="member-logo">
+            <img src="C:\Users\Tech-\Desktop\∞\logo-m.png" alt="member-Avatar">
+            <img src="C:\Users\Tech-\Desktop\∞\logo-m.png" alt="member-Avatar">
+            <img src="C:\Users\Tech-\Desktop\∞\logo-m.png" alt="member-Avatar">
+            <img src="C:\Users\Tech-\Desktop\∞\logo-m.png" alt="member-Avatar">
+        </div>
+        <div id="team-intro">
+            <p>BlackTech，顾名思义，黑科技也！</p>
+        </div>
+    </div>
+</body>
+
+</html>
